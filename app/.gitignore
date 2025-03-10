@@ -1,1 +1,69 @@
-/build
+# Общие файлы операционной системы
+.DS_Store
+Thumbs.db
+
+# Системные файлы IDE
+.idea/
+*.iml
+
+# Файлы и папки Android Studio
+.gradle/
+local.properties
+/.cxx/
+*.keystore
+
+# Файлы сборки
+/build/
+app/build/
+
+# Кэш и логи
+*/build/
+*.log
+
+# Файлы управления версией Android
+*.ap_
+*.apk
+*.dex
+*.aar
+*.jar
+
+# Файлы тестирования
+/capture/
+
+# Библиотеки NDK
+.externalNativeBuild/
+.cxx/
+
+# Артефакты Maven repository
+*.m2/
+*.repositories
+
+# IntelliJ-specific cache and files
+/out/
+
+# Mac OS-specific system files
+*.swp
+*.swo
+
+# Файлы конфигурации среды разработки
+.env
+.vscode/
+
+# Кэширующие и временные файлы
+*.tmp
+*.temp
+*.orig
+*.bak
+*.old
+*.save
+
+# Артефакты сборки Gradle
+!gradle-wrapper.jar
+gradle-app.setting
+
+# Лишние зависимости NodeJS, если используется
+node_modules/
+
+# Кэш Kotlin
+.kotlinc/
+build/

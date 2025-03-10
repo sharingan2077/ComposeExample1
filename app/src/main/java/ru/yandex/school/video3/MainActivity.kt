@@ -19,8 +19,9 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Video3Theme {
-
-
+                TrackList(
+                    tracks = createTrackList(30)
+                )
             }
         }
     }
